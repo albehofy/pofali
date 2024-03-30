@@ -1,0 +1,203 @@
+/* adding external font "DG-Ghayaty-Regular-F" */
+@font-face {
+    font-family: "DG-Ghayaty";
+    src: url('./fonts/DG-Ghayaty-Regular-F.ttf');
+}
+
+@font-face {
+    font-family: "HONOR";
+    src: url('./fonts/TheYearofTheCamel-Thin.otf');
+}
+/* reset padding, and margin > global settings */
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-warning-dark {
+    background-color: #EA8340;
+}
+
+.active {
+    color: #007bff!important;
+}
+
+/* change direction for arabic language */
+ html, body,div, header, main, footer, nav,label, ul, li, form, input, a, button, span {
+    direction: rtl;
+    text-align: right;
+ }
+
+ body {
+    overflow: hidden;
+    font-family: HONOR;
+    
+ }
+
+.header-font {
+    font-family: "DG-Ghayaty",Arial, Helvetica, sans-serif;
+}
+
+/* loader */
+.loader{
+    position: fixed;
+    height: 100vh;
+    z-index: 999999999;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    /* overflow: hidden; */
+    background: #fff;
+    transition: opacity 200ms linear;
+}
+/* navbar */
+.navbar {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+/* navbar brand  */
+nav .navbar-brand{
+    font-family: "DG-Ghayaty",Arial, Helvetica, sans-serif;
+}
+nav .nav-link:hover {
+    color: #007bff!important;
+}
+
+/* header */
+.header {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    /* background-color: ; */
+}
+
+.header-section {
+    margin-top: 91px;
+    max-width: 100%;
+}
+.header-section > div {
+    width: 50%;
+}
+
+.brand-name {
+    font-family: "DG-Ghayaty",Arial, Helvetica, sans-serif;
+
+}
+/* main */
+main {
+    margin-top: 51px;
+
+}
+/* general style in all pages */
+.services {
+    margin: 49px auto;
+}
+.services > h2 {
+    font-family: "DG-Ghayaty",Arial, Helvetica, sans-serif;
+}
+
+.header-section img {
+    height: 100%;
+    min-height: 350px;
+    max-height: 500px;
+    min-width: 270px;
+}
+
+/* for index.html page */
+.primary-light {
+    background-color: #40C8F2;
+}
+
+.success-light {
+    background-color: #40f28a;
+}
+
+.service {
+    width: 250px;
+    height: 230px;
+    overflow: hidden;
+    transition: all 50ms ease-in 150ms;
+}
+
+.rounded-special {
+    border-radius: 31px;
+}
+
+.service > div {
+    height: 50%;
+}
+
+.service .service-title {
+    z-index: 99;
+}
+
+.service .service-animation {
+    bottom: 0;
+    height: 15px;
+    transition: height 250ms linear;
+    z-index: 9;
+}
+.service:hover  {
+    color: white!important;
+}
+
+.service:hover .service-animation {
+    height: 100%;
+}
+
+/* reservation */
+.reservation-step img {
+    height: 120px;
+    width: 120px;
+    text-align: center;
+    line-height: 120px;
+}
+
+/* why us */
+.why-us img {
+    display: block;
+    min-width: 100vw;
+    height: 75vh;
+}
+
+/* superscription */
+.superscription-container {
+    min-height: 450px;
+    transition: border 100ms ease;
+}
+
+.superscription-container:hover {
+    border: 1px solid lightskyblue;
+}
+/* contact us */
+.contact--us-container form , .contact--us-container > img {
+    width: 47%;
+    min-width: 270px;
+}
+.contact--us-container img {
+    width: 90%;
+    max-width: 450px;
+}
+/* footer */
+footer {
+    min-height: 220px;
+}
+
+.social-links {
+    max-width: 270px;
+}
+.social-links > div {
+    width: 23%;
+}
+
+.social-links img {
+    width: 50%;
+    transition: all 300ms ease;
+}
+
+.social-links a:hover svg {
+    color: #007bff;
+}
+
+.copyright {
+    min-width: 250px;
+}

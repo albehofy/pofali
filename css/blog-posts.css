@@ -1,0 +1,13 @@
+body {
+    direction: rtl;
+}
+
+.card {
+    transition: all 150ms ease;
+    /* border: 3px solid #eee; */
+    cursor: pointer;
+}
+
+.card:hover {
+    border: 1px solid rgb(13,110,253);
+}

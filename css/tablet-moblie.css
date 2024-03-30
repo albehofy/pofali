@@ -1,0 +1,14 @@
+/* index.html > header-section  */
+.header-section > div {
+    width: auto;
+}
+
+/* index.html > services */
+.services > h2 {
+    font-size: 17px!important;
+}
+
+/* post.html > post */
+.post.card img {
+    height: 59vh;
+}
