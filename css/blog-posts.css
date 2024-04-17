@@ -1,5 +1,14 @@
 body {
     direction: rtl;
+    text-align: center;
+}
+
+.back-to-home {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    /* margin: auto; */
+    transform: translateX(calc(-50vw + 50%));
 }
 
 .card {
@@ -9,5 +18,57 @@ body {
 }
 
 .card:hover {
-    border: 1px solid rgb(13,110,253);
+    border: 1px solid rgb(13, 110, 253);
+}
+
+.content-container {
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body .header {
+    box-shadow: none;
+    font-weight: 900;
+}
+
+.seprator {
+    margin: 31px auto 0;
+    font-size: 1.2rem;
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.seprator h2 {
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-size: 1em;
+    width: 70%;
+    min-width: 367px;
+    margin: 21px 0;
+    font-weight: 600;
+}
+.seprator h3.without-margin{
+    margin-top: 0!important;
+}
+
+.seprator h3 {
+    display: inline-block;
+    font-family: "HONOR";
+    font-weight: 900;
+    font-size: 1.2em;
+    margin: 21px auto;
+    border-bottom: 1px solid #333;
+}
+
+.ref p {
+    font-family: "DG-Ghayaty";
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.ref a {
+    font-size: 1.4rem;
+    text-decoration: none;
 }
